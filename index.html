@@ -4,46 +4,101 @@
   <meta charset="utf-8">
   <title>kathryngauthier</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/grids.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/module.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
-  <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,600" rel="stylesheet">
 
 </head>
-<body>
+<main>
+<nav>
+  <ul>
+    <li><a href="#contact"><b>Contact</b></a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
 
 
-<div class="grid">
-  <div class="unit xs-1-2 s-1 m-1 l-1 banner gutter">
-    <img src="img/gaut-small.png">
-    <h1>K.Gauthier Design</h1>
-    <hr>
-    <p>Branding - UI/UX - Artist</p>
-    <p>I'm a designer because I want to make things look nice.<br>
-I'm an artist because I want to make you feel something.</p>
+<header>
+  <div class="grid billboard">
+    <div class="unit xs-1 s-1 m-1 l-1 island billboard-content">
+      <h1>K.Gauthier Design</h1>
+      <p class="banner-text">Branding - UI/UX - Artist</p>
+      <a class="down" href="#about">&#8964;</a>
+      </div>
+  </div>
+</header>
+
+
+
+<div class="about grid">
+  <div class="unit pad-t push">
+    <h2 id="about" class="push">About</h2>
+    <p class="push-0">Third year Graphic Design Student at <i>Algonquin College.</i></p>
+    <p>I'm a designer because I want to make things look nice. I'm an artist because I want to make you feel something.</p>
   </div>
 </div>
 
-<div class="grid work">
-    <h2 class="unit">Work</h2>
-    <img class="s-1 m-1-3 l-1-3 gutter-1-4" src="img/320x320.jpg">
-    <img class="s-1 m-1-3 l-1-3 gutter-1-4" src="img/320x320.jpg">
-    <img class="s-1 m-1-3 l-1-3 gutter-1-4" src="img/320x320.jpg">
-    </div>
+<div class="work grid">
+    <h2 id="work" class="unit pad-t">Work</h2>
+
+    <figure class="unit xs-1 s-1 m-1-2 l-1-4 push-1">
+      <img src="http://placehold.it/300x200" alt="work-1">
+      <figcaption>PR (Personal Record) Logo Design</figcaption>
+    </figure>
+
+    <figure class="unit xs-1 s-1 m-1-2 l-1-4 push-1">
+      <img src="http://placehold.it/300x200" alt="work-1">
+      <figcaption>Isometric Illustration</figcaption>
+    </figure>
+
+    <figure class="unit xs-1 s-1 m-1-2 l-1-4 push-1">
+      <img src="http://placehold.it/300x200" alt="work-1">
+      <figcaption>SASS Website</figcaption>
+    </figure>
+
+    <figure class="unit xs-1 s-1 m-1-2 l-1-4 push-1">
+      <img src="http://placehold.it/300x200" alt="work-1">
+      <figcaption>Ruby - Android App</figcaption>
+    </figure>
+
 </div>
 
+<footer class="contact grid" id="contact">
+  <div class="unit xs-1 m-1 l-1 pad-t">
+    <div>
+      <h2>Contact</h2>
+      <p class="push-0">kathrynrgauthier@gmail.com</p>
+    </div>
 
-<div class="grid">
-  <p>kathrynrgauthier@gmail.com</p>
-  <a href="https://www.instagram.com/_kathryng/">Instagram</a>
-   <a href="https://www.behance.net/kathryn_gauthier">Behance</a>
-  <a href="https://ca.linkedin.com/in/kathryn-gauthier-908b49b1">LinkedIn</a>
- </div>
+    <div class="xs-1 center push pad-t">
+      <div class="unit xs-1-3 gutter-1-4 social-icon icon-label">
+        <a href="https://www.behance.net/kathryn_gauthier"><img src="icons/behance.svg" alt="icon"></a>
+      </div>
+
+      <div class="unit xs-1-3 gutter-1-4 social-icon icon-label">
+        <a href="https://ca.linkedin.com/in/kathryn-gauthier-908b49b1"><img src="icons/linkedin.svg" alt="icon"></a>
+      </div>
+
+      <div class="unit xs-1-3 gutter-1-4 social-icon icon-label">
+        <a href="https://www.instagram.com/_kathryng/"><img src="icons/instagram.svg" alt="icon"></a>
+      </div>
+    </div>
+  </div>
+
+    <p class="footer-text unit xs-1 m-1 l-1 center push-0 pad-t pad-b">K.Gauthier Design &copy; 2016</p>
+</footer>
+
+</main>
 
 
-</body>
+
+
+
+
+
 </html>

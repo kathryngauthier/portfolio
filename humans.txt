@@ -1,0 +1,46 @@
+
+
+/* TEAM */
+
+
+Your title: Kathryn Gauthier
+
+
+Site: kathrynrgauthier@gmail.com
+
+
+Twitter: @kgauthierdesign
+
+
+Location: Ottawa, Canada.
+
+
+
+                        [...]
+
+
+
+/* THANKS */
+
+
+Name: Kathryn Gauthier
+
+
+
+                        [...]
+
+
+
+/* SITE */
+
+
+Last update: 2016/10/28
+
+
+Standards: HTML5, CSS, Java script
+
+
+Components: Modernizr, jQuery, etc.
+
+
+Software: Adobe Illustrator

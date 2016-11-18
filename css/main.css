@@ -36,7 +36,7 @@ li {
 
 li a {
   display: block;
-  color: #000;
+  color: #2C3E50;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -48,7 +48,22 @@ li a {
 .down {
   text-decoration: none;
   font-size: 100px;
+  text-align: center;
   color: #fff;
+  margin: 0 auto;
+  bottom: 10px;
+   -webkit-animation: camera 6s infinite ease-in-out alternative;
+  animation: camera 6s infinite ease-in-out alternative;
+}
+
+@-webkit-keyframes camera {
+  0% {-webkit-transform: translate(0);}
+  100% {-webkit-transform: translateY(50px);}
+}
+
+@keyframes down {
+  0% {-webkit-transform: translate(0);}
+  100% {transform: translateY(50px);}
 }
 
 .down:hover{
@@ -73,7 +88,7 @@ h2{
   text-transform: uppercase;
   font-size: 20pt;
   text-align: center;
-  color: black;
+  color: #000;
   width: 100%;
   display: inline-block;
 }
@@ -85,22 +100,25 @@ p{
   line-height: 1.5;
 }
 
+.port-img{
+  width: 100%;
+}
+
 .about{
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
-  background-color: #E0E0E0;
+  background-color: white;
 }
 
 .billboard {
-  background-color: grey;
-  background-position: center center;
+  background-image: url(../img/billboard.png);
   width: 100%;
-  background-size: 100%;
-  overflow: hidden;
-  height: 15em;
-  text-align: center;
-  color: white;
+  background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
+  height: calc(40vh + 100px);
+  color: white;
+  text-align: center;
 
 }
 
@@ -111,6 +129,11 @@ p{
 .banner-text {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
+}
+
+.wordmark {
+  width: 10em;
+  padding-top: 10%;
 }
 
 .work{
@@ -147,7 +170,6 @@ footer{
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   background-color: #fff;
-
 }
 
 @media only screen and (min-width: 10em){

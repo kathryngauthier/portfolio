@@ -55,7 +55,8 @@ li a {
   font-size: 100px;
   text-align: center;
   color: #fff;
-  position: absolute;
+  position: relative;
+  display:inline-block;
   margin-top: 50%;
 }
 

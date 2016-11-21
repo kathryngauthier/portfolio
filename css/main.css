@@ -56,23 +56,8 @@ li a {
   text-align: center;
   color: #fff;
   margin: 0 auto;
-  bottom: 10px;
-   -webkit-animation: camera 6s infinite ease-in-out alternative;
-  animation: camera 6s infinite ease-in-out alternative;
-}
-
-@-webkit-keyframes camera {
-  0% {-webkit-transform: translate(0);}
-  100% {-webkit-transform: translateY(50px);}
-}
-
-@keyframes down {
-  0% {-webkit-transform: translate(0);}
-  100% {transform: translateY(50px);}
-}
-
-.down:hover{
-  color: grey;
+  position: absolute;
+  bottom: 0;
 }
 
 li a:hover {

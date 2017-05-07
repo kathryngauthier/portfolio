@@ -52,12 +52,13 @@ li a {
 
 .down {
   text-decoration: none;
-  font-size: 100px;
+  font-size: 60px;
   text-align: center;
   color: #fff;
-  position: relative;
+  position: absolute;
   display:inline-block;
-  margin-top: 50%;
+  padding-left: none;
+  padding-right: none;
 }
 
 
@@ -102,12 +103,13 @@ p{
 }
 
 .billboard {
-  background-image: url(../img/billboard-2.jpg);
+  /*background-image: url(../img/billboard-2.jpg);*/
   width: 100%;
+  background-color: black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: calc(40vh + 300px);
+  height: calc(40vh + 200px);
   color: white;
   text-align: center;
 
@@ -120,6 +122,7 @@ p{
 .banner-text {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
+  font-size: 16px;
 }
 
 .wordmark {
@@ -211,7 +214,7 @@ footer{
   }
 
   .banner-text {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .billboard-content{
